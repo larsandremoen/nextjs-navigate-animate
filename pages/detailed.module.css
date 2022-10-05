@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  max-width: 700px;
+  position: relative;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  height: 100vh;
+}
+
+.infoContainer {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px;
+  color: #fff;
+}
+
+.albumInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.commentsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 16px;
+  width: 200px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.artist {
+  font-weight: 300;
+}
+.icon {
+  margin-left: 9px;
+  margin-top: 3px;
+}
+
+.closeButton {
+  width: 40px;
+  height: 40px;
+}
